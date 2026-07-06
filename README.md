@@ -8,6 +8,7 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 
 - [References](#references)
 - [Guides & Articles](#guides--articles)
+- [Environment & Package Management](#environment--package-management)
 - [Contributing](#contributing)
 
 ---
@@ -30,6 +31,12 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 - [Matthew Ragan - Python in TouchDesigner](https://matthewragan.com/teaching-resources/touchdesigner/python-in-touchdesigner/) - Series of examples will look at basic python concepts through the lens of the TouchDesigner programmer
 - [rvirmoors - Creative Coding for Interactive Art: TD & Python](https://rvirmoors.github.io/ccia/touchdesigner-and-python) - A practical introduction to processing data and logic in TD using Python
 - [SudoMagic - Python in TD Style Guide](https://td-style.guide/docs/SM-guide/python-in-td) - How SudoMagic has standardized its Python practice for work with TouchDesigner
+
+## Environment & Package Management
+
+- [TDPyEnvManager](https://docs.derivative.ca/Palette:tdPyEnvManager) - The official custom component that helps manage Python environments as well as Conda environments
+- [TD PIP](https://olib.amb-service.net/component/td-pip) - Component that installs PIP directly in to a TouchDesigner project and dynamically downloads and import the libraries in
+- [TD_PyPaIn](https://github.com/PlusPlusOneGmbH/TD_PyPaIn) - [Deprecated] A collection of components to handle virtual environments and external python packages from within TouchDesigner with a hands-off approach (includes TD_PIP)
 
 ---
 
