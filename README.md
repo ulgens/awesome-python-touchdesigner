@@ -10,6 +10,7 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 - [Guides & Articles](#guides--articles)
 - [Courses & Workshops](#courses--workshops)
 - [Environment & Package Management](#environment--package-management)
+- [Libraries & Tools](#libraries--tools)
 - [Contributing](#contributing)
 
 ---
@@ -44,6 +45,17 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 - [TDPyEnvManager](https://docs.derivative.ca/Palette:tdPyEnvManager) - The official custom component that helps manage Python environments as well as Conda environments
 - [TD PIP](https://olib.amb-service.net/component/td-pip) - Component that installs PIP directly in to a TouchDesigner project and dynamically downloads and import the libraries in
 - [TD_PyPaIn](https://github.com/PlusPlusOneGmbH/TD_PyPaIn) - [Deprecated] A collection of components to handle virtual environments and external python packages from within TouchDesigner with a hands-off approach (includes TD_PIP)
+
+## Libraries & Tools
+
+- [cuda-link](https://github.com/forkni/cuda-link) - Zero-copy GPU texture transfer between TouchDesigner and Python processes using CUDA IPC.
+- [graph_explorer](https://github.com/fughilli/graph_explorer) - Python-based tool for programmatically creating and manipulating node networks in TouchDesigner
+- [td-completes-me](https://github.com/picturesbyrobots/td-completes-me) - A combo TOX/VSCode extension that leverages the Language Server protocol to send a list of context-sensitive auto-completion items to Microsoft's Visual Studio Code.
+- [TD_Github](https://github.com/eusebijucgla/TD_Github) - Component for Touch Designer to clone and pull a GitHub repository in your working directory.
+- [TD-State-Machine](https://github.com/InfoMusCP/TD-State-Machine) - A robust, table-driven Finite State Machine component for TouchDesigner
+- [TouchPy](https://pypi.org/project/touchpy/) - High-performance Python toolset for working with TouchDesigner components headlessly via the TouchEngine SDK. It provides GPU-accelerated data exchange (CUDA/Vulkan) for TOPs, CHOPs, DATs, and parameters.
+- [NDIForPython](https://github.com/UnveilStudio/NDIForPython) - Unofficial Python bindings for NDI® — send video frames over the network from Python to TouchDesigner, OBS, Resolume, vMix, and any NDI-aware app. ctypes wrapper around the NDI Runtime
+- [TopArray](https://github.com/IntentDev/TopArray) - Python module designed to facilitate the interaction between Python/PyTorch tensor operations and TouchDesigner TOPs. It provides a workflow for referencing CUDA memory from TOPs as tensors and for copying a tensor's data to a scriptTOP efficiently.
 
 ---
 
