@@ -8,6 +8,7 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 
 - [References](#references)
 - [Guides & Articles](#guides--articles)
+- [Contributing](#contributing)
 
 ---
 
@@ -32,4 +33,12 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 
 ---
 
+## Contributing
+
 > **Early stage notice:** This list is a work in progress and may contain inaccuracies or miss important resources. Contributions are welcome — open a PR if you see anything to improve.
+
+Contributions are welcome! While you are creating a PR, please make sure that PR only adds - updates - deletes a single resource.
+
+The ordering in the sections are not exact, but loosely following:
+* Derivative resources first
+* Other resources sorted alphabetically (case-insensitive)
