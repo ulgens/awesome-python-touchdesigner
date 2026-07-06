@@ -11,6 +11,8 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 - [Courses & Workshops](#courses--workshops)
 - [Environment & Package Management](#environment--package-management)
 - [Libraries & Tools](#libraries--tools)
+- [AI Tools](#ai-tools)
+- [MCP Tools](#mcp-tools)
 - [Contributing](#contributing)
 
 ---
@@ -56,6 +58,41 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 - [TouchPy](https://pypi.org/project/touchpy/) - High-performance Python toolset for working with TouchDesigner components headlessly via the TouchEngine SDK. It provides GPU-accelerated data exchange (CUDA/Vulkan) for TOPs, CHOPs, DATs, and parameters.
 - [NDIForPython](https://github.com/UnveilStudio/NDIForPython) - Unofficial Python bindings for NDI® — send video frames over the network from Python to TouchDesigner, OBS, Resolume, vMix, and any NDI-aware app. ctypes wrapper around the NDI Runtime
 - [TopArray](https://github.com/IntentDev/TopArray) - Python module designed to facilitate the interaction between Python/PyTorch tensor operations and TouchDesigner TOPs. It provides a workflow for referencing CUDA memory from TOPs as tensors and for copying a tensor's data to a scriptTOP efficiently.
+
+> ## Warning for the following AI and MCP sections
+>
+> Modern AI tools are known for their overconfident but misleading results and tremendous negative environmental impact.
+>
+> Use them responsively.
+
+## AI Tools
+
+- [ComfyUI-TD](https://github.com/JiSenHua/ComfyUI-TD) - ComfyUI to TouchDesigner custom node for real-time streaming of generated data. It supports sending images, videos, point clouds (traditional PLY / Gaussian Splatting PLY), and audio from ComfyUI into TouchDesigner.
+- [LOPs (Language Operators)](https://docs.dotsimulate.com/getting-started/) - Native operator family for TouchDesigner — agents, tools, speech, retrieval, generative workflows, stateful automation, and authorable systems, built directly into your TD project.
+- [td-snapshot](https://github.com/rootnotez/td-snapshot) - TouchDesigner .tox plugin to extract patch info into text for input to LLMs
+- [td-gemini-toolkit](https://github.com/SudoMagicCode/td-gemini-toolkit) - Collection of custom TouchDesigner Components that use the Google Gemini API. Focused on an library independent workflow, this set of components is a batteries included collection that requires no additional libraries or dependencies to get working.
+- [TDDepthAnything](https://github.com/olegchomp/TDDepthAnything) - TouchDesigner implementation for Depth Anything and Depth Anything v2 with TensorRT monocular depth estimation.
+- [TD-ONNX-EX](https://github.com/yeataro/TD-ONNX-EX) - Examples of using onnxruntime in TouchDesigner
+- [TouchDiffusion](https://github.com/olegchomp/TouchDiffusion) - TouchDesigner implementation for real-time Stable Diffusion interactive generation with StreamDiffusion.
+
+## MCP Tools
+
+> ### What is the Model Context Protocol (MCP)?
+>
+> MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems.
+>
+> Using MCP, AI applications like Claude or ChatGPT can connect to data sources (e.g. local files, databases), tools (e.g. search engines, calculators) and workflows (e.g. specialized prompts)—enabling them to access key information and perform tasks.
+>
+> Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect electronic devices, MCP provides a standardized way to connect AI applications to external systems.
+
+\- https://modelcontextprotocol.io/docs/getting-started/intro
+
+- [Embody](https://github.com/dylanroscover/Embody) - MCP server for TouchDesigner — build, wire, and debug networks with AI. Plus git-diffable externalization.
+- [TD_Builder_alpha](https://github.com/TrueFiasco/TD_Builder_alpha) - Key-free MCP servers that let LLMs build real TouchDesigner networks: local knowledge base (no API keys), offline .toe/.tox generation, live TD editing. Eval-gated - 636/636 build-token-exact.
+- [td-mcp](https://github.com/DazaiStudio/td-mcp) - TouchDesigner MCP server with node CRUD, Python execution, and planned extensions for viewport capture, GLSL authoring, and scene scaffolding. Fork of 8beeeaaat/touchdesigner-mcp. Maintained by NYU Media Commons.
+- [TDPilot](https://github.com/dreamrec/TDPilot) - TouchDesigner AI assistant (112 MCP tools, correctness-first brain: plan -> execute -> validate -> rollback, 656 operator cards, sync diagnostics, read-only cockpit UI)
+- [touch-mcp](https://github.com/benoitliard/touch-mcp) - High-performance MCP server for TouchDesigner — live control via WebSocket with 29 tools (nodes, parameters, connections, CHOP/TOP/SOP/DAT data, timeline, render, layout, batch). Python + FastMCP
+- [touchdesigner-mcp](https://github.com/8beeeaaat/touchdesigner-mcp) -  MCP server for TouchDesigner
 
 ---
 
