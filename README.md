@@ -5,6 +5,10 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 > [!IMPORTANT]
 > The Python ecosystem is ever-evolving. TouchDesigner's Python environment often lags significantly behind the broader Python ecosystem — not just in CPython version, but also in library compatibility, tooling, and modern best practices. If you're working on Python-intensive projects, we recommend also consulting modern Python resources to stay aware of current best practices and available tooling.
 
+> [!TIP]
+> Do you need help with Python + TouchDesigner projects?
+> I can help with the design and implementation of your project. Project analysis, infrastructure design, automation, quality assurance, packaging and everything in between. [Contact me on LinkedIn](https://www.linkedin.com/in/ulgens/)
+
 ## Contents
 
 - [References](#references)
