@@ -2,6 +2,7 @@
 
 A curated list of Python-focused resources for [TouchDesigner](https://derivative.ca) — resources that bring Python and TouchDesigner together - either extending TD with Python scripts, integrating external Python projects into TD, or bridging both worlds.
 
+> [!IMPORTANT]
 > The Python ecosystem is ever-evolving. TouchDesigner's Python environment often lags significantly behind the broader Python ecosystem — not just in CPython version, but also in library compatibility, tooling, and modern best practices. If you're working on Python-intensive projects, we recommend also consulting modern Python resources to stay aware of current best practices and available tooling.
 
 ## Contents
@@ -22,6 +23,7 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 - [Official Wiki - Python](https://docs.derivative.ca/Python) - The official top level reference for Python & TouchDesigner integration
 - [Official Wiki - Python Classes and Modules](https://docs.derivative.ca/Python_Classes_and_Modules) - List of important Python classes and modules, roughly grouped together by subject
 
+> [!IMPORTANT]
 > Note that while docs.derivative.ca is the official reference, details about TD's Python integration may be outdated, as it isn't open for community contributions. Cross-referencing with other sources is recommended.
 
 ## Guides & Articles
@@ -59,8 +61,7 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 - [NDIForPython](https://github.com/UnveilStudio/NDIForPython) - Unofficial Python bindings for NDI® — send video frames over the network from Python to TouchDesigner, OBS, Resolume, vMix, and any NDI-aware app. ctypes wrapper around the NDI Runtime
 - [TopArray](https://github.com/IntentDev/TopArray) - Python module designed to facilitate the interaction between Python/PyTorch tensor operations and TouchDesigner TOPs. It provides a workflow for referencing CUDA memory from TOPs as tensors and for copying a tensor's data to a scriptTOP efficiently.
 
-> ## Warning for the following AI and MCP sections
->
+> [!CAUTION]
 > Modern AI tools are known for their overconfident but misleading results and tremendous negative environmental impact.
 >
 > Use them responsively.
@@ -77,15 +78,14 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 
 ## MCP Tools
 
-> ### What is the Model Context Protocol (MCP)?
->
+> [!TIP]
 > MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems.
 >
 > Using MCP, AI applications like Claude or ChatGPT can connect to data sources (e.g. local files, databases), tools (e.g. search engines, calculators) and workflows (e.g. specialized prompts)—enabling them to access key information and perform tasks.
 >
 > Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect electronic devices, MCP provides a standardized way to connect AI applications to external systems.
-
-\- https://modelcontextprotocol.io/docs/getting-started/intro
+>
+> _https://modelcontextprotocol.io/docs/getting-started/intro_
 
 - [Embody](https://github.com/dylanroscover/Embody) - MCP server for TouchDesigner — build, wire, and debug networks with AI. Plus git-diffable externalization.
 - [TD_Builder_alpha](https://github.com/TrueFiasco/TD_Builder_alpha) - Key-free MCP servers that let LLMs build real TouchDesigner networks: local knowledge base (no API keys), offline .toe/.tox generation, live TD editing. Eval-gated - 636/636 build-token-exact.
@@ -98,9 +98,10 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 
 ## Contributing
 
-> **Early stage notice:** This list is a work in progress and may contain inaccuracies or miss important resources. Contributions are welcome — open a PR if you see anything to improve.
+> [!NOTE]
+> This list is a work in progress and may contain inaccuracies or miss important resources. Contributions are welcome — open a PR if you see anything to improve.
 
-Contributions are welcome! While you are creating a PR, please make sure that PR only adds - updates - deletes a single resource.
+Please make sure that a PR only adds - updates - deletes a single resource.
 
 The ordering in the sections are not exact, but loosely following:
 * Derivative resources first
