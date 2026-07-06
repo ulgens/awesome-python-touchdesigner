@@ -8,6 +8,7 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 
 - [References](#references)
 - [Guides & Articles](#guides--articles)
+- [Courses & Workshops](#courses--workshops)
 - [Environment & Package Management](#environment--package-management)
 - [Contributing](#contributing)
 
@@ -31,6 +32,12 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 - [Matthew Ragan - Python in TouchDesigner](https://matthewragan.com/teaching-resources/touchdesigner/python-in-touchdesigner/) - Series of examples will look at basic python concepts through the lens of the TouchDesigner programmer
 - [rvirmoors - Creative Coding for Interactive Art: TD & Python](https://rvirmoors.github.io/ccia/touchdesigner-and-python) - A practical introduction to processing data and logic in TD using Python
 - [SudoMagic - Python in TD Style Guide](https://td-style.guide/docs/SM-guide/python-in-td) - How SudoMagic has standardized its Python practice for work with TouchDesigner
+
+## Courses & Workshops
+
+- [Interactive & Immersive HQ - Pro TouchDesigner Python & Extension Architecture](https://pro.interactiveimmersive.io/courses/pro-touchdesigner-python-extension-architecture/) - Advanced course by Noah Norman on Python extensions, state machines, Pydantic validation, IDE automation, Git workflows, and virtual environments. (Paid)
+- [Music Hackspace - Getting Started With Python in TouchDesigner](https://musichackspace.org/courses/getting-started-with-python-in-touchdesigner/) - Python scripting inside TouchDesigner, from data types and expressions to referencing operators, with hands-on exercises to drive and automate your networks programmatically (Paid)
+- [The NODE Institute - Python in TouchDesigner (Refactored)](https://thenodeinstitute.org/product/ss25-td-pro-python-in-touchdesigner-refactored/) - Led by Daniel Molnar (aka Function Store), designed for both beginners and experienced TouchDesigner users looking to expand their scripting skills (Paid)
 
 ## Environment & Package Management
 
