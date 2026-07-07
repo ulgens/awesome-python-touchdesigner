@@ -25,6 +25,11 @@ repos:
         files: ^\.github/workflows/[^/]+$
         types: [yaml]
         args: ["--builtin-schema", "github-workflows-require-timeout"]
+      - id: check-renovate
+        files: ^renovate.json5$
+        language: python
+        additional_dependencies:
+          - pyjson5==2.0.1
 
   - repo: https://github.com/zizmorcore/zizmor-pre-commit
     rev: v1.26.1
