@@ -92,6 +92,7 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 > _https://modelcontextprotocol.io/docs/getting-started/intro_
 
 - [Embody](https://github.com/dylanroscover/Embody) - MCP server for TouchDesigner — build, wire, and debug networks with AI. Plus git-diffable externalization.
+- [td-atlas](https://github.com/grigabyte/td-atlas) - MCP server for TouchDesigner: an operator and parameter index built from your own install, a live bridge with one-step undo, renders and health checks for silent failures, frame-stepping timeline jobs, and an offline .toe/.tox reader.
 - [TD_Builder_alpha](https://github.com/TrueFiasco/TD_Builder_alpha) - Key-free MCP servers that let LLMs build real TouchDesigner networks: local knowledge base (no API keys), offline .toe/.tox generation, live TD editing. Eval-gated - 636/636 build-token-exact.
 - [td-mcp](https://github.com/DazaiStudio/td-mcp) - TouchDesigner MCP server with node CRUD, Python execution, and planned extensions for viewport capture, GLSL authoring, and scene scaffolding. Fork of 8beeeaaat/touchdesigner-mcp. Maintained by NYU Media Commons.
 - [TDPilot](https://github.com/dreamrec/TDPilot) - TouchDesigner AI assistant (112 MCP tools, correctness-first brain: plan -> execute -> validate -> rollback, 656 operator cards, sync diagnostics, read-only cockpit UI)
