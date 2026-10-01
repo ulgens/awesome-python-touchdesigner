@@ -15,7 +15,7 @@ concurrency:
 jobs:
   link_checker:
     name: lychee
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     timeout-minutes: 5
     permissions:
       issues: write  # required for peter-evans/create-issue-from-file
