@@ -18,6 +18,7 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 - [Libraries & Tools](#libraries--tools)
 - [AI Tools](#ai-tools)
 - [MCP Tools](#mcp-tools)
+- [Community](#community)
 - [Contributing](#contributing)
 
 ---
@@ -47,6 +48,11 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 - [Interactive & Immersive HQ - Pro TouchDesigner Python & Extension Architecture](https://pro.interactiveimmersive.io/courses/pro-touchdesigner-python-extension-architecture/) - Advanced course by Noah Norman on Python extensions, state machines, Pydantic validation, IDE automation, Git workflows, and virtual environments. (Paid)
 - [Music Hackspace - Getting Started With Python in TouchDesigner](https://musichackspace.org/courses/getting-started-with-python-in-touchdesigner/) - Python scripting inside TouchDesigner, from data types and expressions to referencing operators, with hands-on exercises to drive and automate your networks programmatically (Paid)
 - [The NODE Institute - Python in TouchDesigner (Refactored)](https://thenodeinstitute.org/product/ss25-td-pro-python-in-touchdesigner-refactored/) - Led by Daniel Molnar (aka Function Store), designed for both beginners and experienced TouchDesigner users looking to expand their scripting skills (Paid)
+
+## Misc ?
+
+- [mediapipe-touchdesigner](https://github.com/torinmb/mediapipe-touchdesigner) - GPU-accelerated MediaPipe plugin for hand, face, and pose tracking with Python-friendly output. (2.5k ★)
+- [SYNTHÈSE / EXPERTS - Python in TouchDesigner Training](https://polesynthese.com/en/news/experts-online-course-python-and-touchdesigner) - 5-hour online course by Vincent Brault (SAT) split into ~20 modules. Includes project files and annotated documentation. In French and English. (Free, restricted to Québec creative industry professionals and recent digital-creation graduates)
 
 ## Environment & Package Management
 
@@ -97,6 +103,13 @@ A curated list of Python-focused resources for [TouchDesigner](https://derivativ
 - [TDPilot](https://github.com/dreamrec/TDPilot) - TouchDesigner AI assistant (112 MCP tools, correctness-first brain: plan -> execute -> validate -> rollback, 656 operator cards, sync diagnostics, read-only cockpit UI)
 - [touch-mcp](https://github.com/benoitliard/touch-mcp) - High-performance MCP server for TouchDesigner — live control via WebSocket with 29 tools (nodes, parameters, connections, CHOP/TOP/SOP/DAT data, timeline, render, layout, batch). Python + FastMCP
 - [touchdesigner-mcp](https://github.com/8beeeaaat/touchdesigner-mcp) -  MCP server for TouchDesigner
+
+## Community
+
+- [TouchDesigner Forum](https://forum.derivative.ca) - The official community forum with an active Python scripting section.
+- [TouchDesigner Discord](https://discord.gg/touchdesigner) - Real-time chat with dedicated channels for Python help and project sharing.
+- [r/TouchDesigner](https://reddit.com/r/TouchDesigner) - Active Reddit community with regular Python discussions and troubleshooting.
+- [Olib](https://td-olib.org) - Community marketplace for free and open-source TouchDesigner .tox files, many with Python extensions.
 
 ---
 
